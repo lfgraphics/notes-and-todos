@@ -43,7 +43,7 @@ This is a **Todo and Notes Desktop Application** built using **Electron.js**, **
 ### Steps to Run
 1. **Clone the Repository**:
    ```sh
-   git clone <repository_url>
+   git clone [https://github.com/lfgraphics/notes-and-todos.git](https://github.com/lfgraphics/notes-and-todos.git)
    cd todo-and-notes
    ```
 2. **Install Dependencies**:
