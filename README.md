@@ -1,6 +1,8 @@
 # Todo-and-Notes Desktop Application
 
-This is a **Todo and Notes Desktop Application** built using **Electron.js**, **Next.js**, **Tailwind CSS**, and **PostgreSQL** with **Drizzle ORM**. This application aims to provide a seamless, intuitive, and customizable note-taking and task management experience for users.
+This is a **Todo and Notes Desktop Application** built using **Electron.js**, **Next.js**, **Tailwind CSS**, and **MongoDB** with **Mongoose**. This application aims to provide a seamless, intuitive, and customizable note-taking and task management experience for users.
+
+## This is under development.
 
 ## Key Features
 
@@ -29,21 +31,23 @@ This is a **Todo and Notes Desktop Application** built using **Electron.js**, **
 - **Electron.js**: Provides the framework to build the desktop application using web technologies.
 - **Next.js**: Frontend framework for building a dynamic user interface with server-side rendering.
 - **Tailwind CSS**: Utility-first CSS framework for rapid and responsive UI development.
-- **PostgreSQL**: Used as the primary database for storing notes and todos.
-- **Drizzle ORM**: An intuitive and type-safe ORM for managing database interactions.
+- **MongoDB**: Used as the primary database for storing notes and todos.
+- **Mongoose**: An intuitive for managing database interactions.
 - **Express.js**: Backend framework used to create APIs for CRUD operations.
 - **Socket.io**: Used for real-time sharing of notes and todos.
 
 ## How to Run the Application
 
 ### Prerequisites
+
 - **Node.js** and **npm** must be installed.
-- **PostgreSQL** server should be running locally or remotely.
+- **MongoDB** server should be running locally or remotely.
 
 ### Steps to Run
+
 1. **Clone the Repository**:
    ```sh
-   git clone [https://github.com/lfgraphics/notes-and-todos.git](https://github.com/lfgraphics/notes-and-todos.git)
+   git clone https://github.com/lfgraphics/notes-and-todos.git
    cd todo-and-notes
    ```
 2. **Install Dependencies**:
@@ -74,4 +78,3 @@ Contributions are welcome! Please feel free to submit a pull request or file an 
 ## License
 
 This project is licensed under the MIT License.
-
